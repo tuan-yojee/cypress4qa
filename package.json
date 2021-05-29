@@ -1,0 +1,27 @@
+{
+  "name": "cypress4qa",
+  "version": "1.0.0",
+  "description": "Type below command on the terminal under your project directory:",
+  "main": "index.js",
+  "dependencies": {
+    "typescript": "^4.2.4"
+  },
+  "devDependencies": {
+    "cypress": "^7.4.0"
+  },
+  "scripts": {
+    "cy:run": "npx cypress run",
+    "cy:run:api": "npx cypress run --spec ./cypress/integration/api/*.ts",
+    "cy:run:ui": "npx cypress run --spec ./cypress/integration/ui/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuan-yojee/cypress4qa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tuan-yojee/cypress4qa/issues"
+  },
+  "homepage": "https://github.com/tuan-yojee/cypress4qa#readme"
+}

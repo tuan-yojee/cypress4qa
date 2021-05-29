@@ -1,0 +1,21 @@
+[
+    {
+        "color": "red",
+        "id": 4,
+        "available": false,
+        "features": [
+            "speed limiter",
+            "panoramic windshield",
+            "automatic transmission"
+        ]
+    },
+    {
+        "color": "blue",
+        "id": 7,
+        "available": true,
+        "features": [
+            "speed limiter",
+            "automatic transmission"
+        ]
+    }
+]

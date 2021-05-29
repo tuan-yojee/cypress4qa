@@ -1,0 +1,10 @@
+{
+    "baseUrl": "http://localhost:3000",
+    "ignoreTestFiles": "*.ts",
+    "env": {
+        "base_url": "https://umbrella-staging.yojee.com/",
+        "company_slug": "yojee",
+        "email": "tuan+qa-one-booking@yojee.com",
+        "password": "P@ssw0rd1"
+    }
+}
