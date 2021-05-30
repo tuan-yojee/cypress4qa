@@ -52,3 +52,29 @@ Notice `"types": ["cypress"]`, we are defining types. This is the exact thing as
 * Run:
 
         $ yarn run cypress run --browser chrome
+
+---
+## Cypress custom reporter by using mochawesome https://github.com/adamgruber/mochawesome
+
+* Installing
+
+        $ yarn add --dev mochawesome
+
+* Run:
+
+        $ yarn run cypress run --browser chrome --reporter mochawesome --reporter-options reportDir="output",overwrite=false,html=true,json=true
+
+## Parallelism & Merge reports
+
+* Installing
+        $ yarn add mochawesome-merge --dev
+        $ yarn add mochawesome-report-generator --dev
+
+
+* Run
+        $ rm -f mochawesome-output/*.json
+        $ yarn run cypress run
+
+        $ npx mochawesome-merge ./mochawesome-report/*.json -o mochawesome-report/mochawesome.json
+        $ npx mochawesome-report-generator ./mochawesome-report/mochawesome.json
+
