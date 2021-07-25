@@ -1,0 +1,12 @@
+version: '3.2'
+
+services: 
+    # Cypress container
+    cypress:
+        image: "cypress/included:7.4.0"
+        environment:
+            - CYPRESS_baseUrl=https://qaone.dispatcher-staging.yojee.com/
+        entrypoint: cypress run --browser chrome
+        working_dir: /e2e
+        volumes:
+            - ./:/e2e

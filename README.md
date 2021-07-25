@@ -78,3 +78,7 @@ Notice `"types": ["cypress"]`, we are defining types. This is the exact thing as
         $ npx mochawesome-merge ./mochawesome-report/*.json -o mochawesome-report/mochawesome.json
         $ npx mochawesome-report-generator ./mochawesome-report/mochawesome.json
 
+
+
+                Note: 
+                $ docker run -it -v $PWD:/e2e -w /e2e cypress/included:3.2.0

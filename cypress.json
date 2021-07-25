@@ -5,7 +5,7 @@
         "charts": true,
         "reportDir": "mochawesome-report",
         "overwrite": false,
-        "html": false,
+        "html": true,
         "json": true
     },
     "video": false
