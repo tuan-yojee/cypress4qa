@@ -1,0 +1,3 @@
+Item Details,,,,,,,,,Pickup Details,,,,,,,Dropoff Details,,,,,,,,Extra,,,Order
+Description,Payload Type,Length,Width,Height,Quantity,Additional Info,Service Type,Weight *,Address Line 1 *,Zipcode,From *,To *,Contact Name,Contact Phone,Contact Company,Address Line 1 *,Zipcode *,From *,To *,Contact Name,Contact Email,Contact Company,Contact Phone,External customer  Item ID 3 *,External Item ID 1,External Item ID 2,Sender ID
+1 package,,50,40,40,1,,sameday,5,77 Robinson Road,068896,27/10/21 22:20,27/10/21 22:50,Yojee Ops,6531591335,,59 New Bridge Road,059405,27/10/21 23:20,27/10/21 23:50,Yojee Ops,,,6531591335,,YOJ-1234,,

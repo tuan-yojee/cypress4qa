@@ -14,10 +14,12 @@ const Papa = require('papaparse');
 const fastcsv = require('fast-csv');
 const request = require("request-promise");
 
-const numberOfOrders = 500
-const numberAddressBooking = 200
+const numberOfOrders = 50
+const numberAddressBooking = 500
 const csvTemplateFilePath = 'template.csv'
-const csvNewFilePath = 'gen_template.csv'
+const csvNewFilePath = 'gen_testingkn_template.csv'
+const COMPANY_SLUG = 'testingkn'
+const BACKEND_URL = 'https://umbrella.yojee.com'
 
 const createOrderTemplate = async () => {
   let parsedData = await readCSV(csvTemplateFilePath);
@@ -57,7 +59,8 @@ const createOrderTemplate = async () => {
     const timeFromDropoffIndex = secondRowData.indexOf('From *', dropoffDetailsIndex)
     const timeToDropoffIndex = secondRowData.indexOf('To *', dropoffDetailsIndex)
     // find external id index
-    const externalCustomerIdIndex = secondRowData.indexOf('External Item ID 1 *', extraIndex)
+    // const externalCustomerIdIndex = secondRowData.indexOf('External Item ID 1 *', extraIndex)
+    const externalCustomerIdIndex = secondRowData.indexOf('External Item ID 1', extraIndex)
 
     // var dateNow = new Date(new Date().setHours(0,0,0,0)); // last midnight
     var dateNow = new Date(); 
@@ -70,6 +73,7 @@ const createOrderTemplate = async () => {
       randomNumber = await getRandomInt(addressBookingItemsLength - 1)
       randomAddressBookingItem = await addressBookingItems[randomNumber]
 
+      // var pickupData = await getPickupData()
       var dropoffData = await getDropoffData()
 
       // update current row with pickup data
@@ -80,6 +84,14 @@ const createOrderTemplate = async () => {
       cloneThirdRowData[contactNamePickupIndex] = randomAddressBookingItem.contact_name
       cloneThirdRowData[contactPhonePickupIndex] = randomAddressBookingItem.contact_phone
       cloneThirdRowData[contactEmailPickupIndex] = randomAddressBookingItem.contact_email
+      // update current row with pickup data
+      // cloneThirdRowData[address1PickupIndex] = pickupData.addressNumberOne
+      // cloneThirdRowData[address2PickupIndex] = pickupData.addressNumberTwo
+      // cloneThirdRowData[countryPickupIndex] = pickupData.country
+      // cloneThirdRowData[zipcodePickupIndex] = pickupData.postalCode
+      // cloneThirdRowData[contactNamePickupIndex] = pickupData.contactName
+      // cloneThirdRowData[contactPhonePickupIndex] = pickupData.contactPhone
+      // cloneThirdRowData[contactEmailPickupIndex] = pickupData.contactEmail
 
       cloneThirdRowData[timeFromPickupIndex] = dateFormat(dateNow, "%d/%m/%Y %H:%M:%S", false)
       dateNow.setMinutes(dateNow.getMinutes() + 30)
@@ -146,19 +158,31 @@ const writeCSV = async (data, filePath) => {
     .pipe(ws);
 }
 
-const getDropoffData = async () => {
+const getPickupData = async () => {
   var dropoffData = {
-    addressNumberOne: 'Katurian Rd, corner Mabato, Taguig, Metro Manila, Philippines',
-    addressNumberTwo: 'Taguig City',
+    addressNumberOne: '9 WILLIAM ST., COR SHERIDAN ST. BRGY HIGHWAY HILLS, MANDALUYONG CITY',
+    addressNumberTwo: 'Metro Manila~Mandaluyong',
     country: 'Philippines',
     postalCode: null,
-    contactName: 'Lazada Tipas Cross-dock',
-    contactPhone: '9178058015',
-    contactEmail: 'claas.durach@lazada.com.ph',
+    contactName: 'momo',
+    contactPhone: '639218894869',
+    contactEmail: '',
   }
   return dropoffData
 }
 
+const getDropoffData = async () => {
+  var dropoffData = {
+    addressNumberOne: 'Katurian St. corner Mabatu St. Ibayo Tipas Taguig City (beside GMC ready Mix Corporation',
+    addressNumberTwo: 'Metro Manila~Quezon City',
+    country: 'Philippines',
+    postalCode: '1630',
+    contactName: 'Lazada Tipas Cross-dock',
+    contactPhone: '',
+    contactEmail: '',
+  }
+  return dropoffData
+}
 
 const getDispatcherAddressItemsFromAddressBooking = async (numberOfItems) => {
   // call from apis
@@ -166,24 +190,14 @@ const getDispatcherAddressItemsFromAddressBooking = async (numberOfItems) => {
   // 2. Get Addresses
 
   var headers = {
-    'authority': 'umbrella-staging.yojee.com',
-    'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"',
-    'accept': 'application/json',
-    'company_slug': 'kntesting',
-    'sec-ch-ua-mobile': '?0',
-    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36',
+    'company_slug': 'testingkn',
     'content-type': 'application/json;charset=UTF-8',
-    'origin': 'https://kntesting.dispatcher-staging.yojee.com',
-    'sec-fetch-site': 'same-site',
-    'sec-fetch-mode': 'cors',
-    'sec-fetch-dest': 'empty',
-    'accept-language': 'en-US,en;q=0.9'
   };
 
-  var dataString = '{"email":"geetha+knstagingdis@yojee.com","password":"12345678"}';
+  var dataString = '{"email":"geetha+kntestlive@yojee.com","password":"12345678"}';
 
   var options = {
-    url: 'https://umbrella-staging.yojee.com/api/v3/auth/signin',
+    url: `${BACKEND_URL}/api/v3/auth/signin`,
     method: 'POST',
     headers: headers,
     body: dataString
@@ -203,23 +217,14 @@ const getDispatcherAddressItemsFromAddressBooking = async (numberOfItems) => {
 
   // Request 2: Get Address Booking
   var headers = {
-    'authority': 'umbrella-staging.yojee.com',
-    'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"',
-    'accept': 'application/json',
     'authorization': 'Bearer ' + jwt_tokens_access_token,
-    'company_slug': 'kntesting',
-    'sec-ch-ua-mobile': '?0',
-    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36',
-    'origin': 'https://kntesting.manage-staging.yojee.com',
-    'sec-fetch-site': 'same-site',
-    'sec-fetch-mode': 'cors',
-    'sec-fetch-dest': 'empty',
-    'accept-language': 'en-US,en;q=0.9'
+    'company_slug': 'testingkn',
+    'content-type': 'application/json;charset=UTF-8',
   };
 
 
   var options = {
-    url: 'https://umbrella-staging.yojee.com/api/v3/dispatcher/address_items?page=1&page_size=' + numberOfItems + '&sort_by=external_id',
+    url: `${BACKEND_URL}/api/v3/dispatcher/address_items?page=1&page_size=` + numberOfItems + '&sort_by=external_id',
     headers: headers
   };
   
@@ -233,7 +238,8 @@ const getDispatcherAddressItemsFromAddressBooking = async (numberOfItems) => {
 
       newAddressBookingData = addressBookingData.filter((item) => {
         // console.log(item.contact_phone)
-        return (item.contact_phone !== null && item.country !== 'Viet Nam' && item.contact_name !== 'Getha')? item.contact_phone.length === 10 : false;
+        // return (item.contact_phone !== null && item.country !== 'Viet Nam' && item.contact_name !== 'Getha')? item.contact_phone.length === 10 : false;
+        return (item.contact_phone !== null && item.country !== 'Viet Nam')? item.contact_phone.length === 10 : false;
       })
     }
   }

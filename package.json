@@ -1,16 +1,21 @@
 {
   "devDependencies": {
-    "cypress": "^7.4.0",
-    "typescript": "^4.3.2",
+    "@types/node": "^17.0.8",
+    "command-line-args": "^5.2.1",
+    "cypress": "9.4.1",
+    "cypress-wait-until": "^1.7.2",
+    "fast-csv": "^4.3.6",
     "mochawesome": "^6.2.2",
     "mochawesome-merge": "^4.2.0",
-    "mochawesome-report-generator": "^5.2.0"
-  },
-  "dependencies": {
-    "fast-csv": "^4.3.6",
-    "fs": "0.0.1-security",
+    "mochawesome-report-generator": "^5.2.0",
     "papaparse": "^5.3.1",
     "request": "^2.88.2",
-    "request-promise": "^4.2.6"
+    "request-promise": "^4.2.6",
+    "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "cypress-promise": "^1.1.0",
+    "fs": "^0.0.1-security",
+    "moment": "^2.29.1"
   }
 }

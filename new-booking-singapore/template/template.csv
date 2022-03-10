@@ -1,0 +1,4 @@
+,,,,,,,,,,,,,,,,,,,,,Leg 1,,,,,,,,,,,,,,,,,,,,,
+Order,,,Item Details,,,,,,,,,,,,,,,,,,Task Details 1,,,,,,,,,,,Task Details 2,,,,,,,,,,
+External ID,Service Type *,Packing Mode,Description,Package Type *,Weight,Weight Unit,Length,Length Unit,Width,Width Unit,Height,Height Unit,Quantity,Volume,Volume Unit,Special Instructions,External Item ID 1,External Item ID 2,External Item ID 3,COD Price,Task Type *,Address Line 1 *,Address Line 2,Country,Zipcode,From *,To *,Contact Name,Contact Phone,Contact Email,Company Name,Task Type *,Address Line 1 *,Address Line 2,Country,Zipcode,From *,To *,Contact Name,Contact Phone,Contact Email,Company Name
+,sameday,,1 package,,5,kilogram,50,centimeter,40,centimeter,40,centimeter,1,,cubic_centimeter,,YOJ-1234,,,,pickup,77 Robinson Road,#03-01,Singapore,068896,08/03/22 10:36,08/03/22 11:06,Yojee Ops,6531591335,,,dropoff,77 Robinson Road,#03-01,Singapore,068896,08/03/22 11:36,08/03/22 12:06,Yojee Ops,6531591335,,

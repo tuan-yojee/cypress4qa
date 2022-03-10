@@ -1,0 +1,18 @@
+{
+  "name": "new-booking-singapore",
+  "version": "1.0.0",
+  "description": "Generate Batch Order File New Booking",
+  "main": "",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "command-line-args": "^5.2.1",
+    "fast-csv": "^4.3.6",
+    "papaparse": "^5.3.1"
+  },
+  "dependencies": {
+    "moment": "^2.29.1"
+  }
+}

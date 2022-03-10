@@ -1,0 +1,102 @@
+Address 1,Address 2,Postal Code,City,State,Country,Contact Name,Contact Phone,Contact Company,Contact Email,Latitude,Longitude
+302 Tiong Bahru Road 168732,#01-18,168732,Singapore,,Singapore,Yojee QA 101 ,6520210764,QA Corp 101,qa101@mail.com,1.2833754,103.8271508
+77 Robinson Road,#01-17,68896,Singapore,,Singapore,Yojee QA 100 ,6520210763,QA Corp 100,qa100@mail.com,1.2777689,103.8483915
+"37 Tanjong Pagar Road, Singapore",#01-16,88460,Singapore,,Singapore,Yojee QA 99 ,6520210762,QA Corp 099,qa99@mail.com,1.279081,103.843997
+"30 Changi Ferry Rd, Singapore",#01-15,499675,Singapore,,Singapore,Yojee QA 98 ,6520210761,QA Corp 098,qa98@mail.com,1.373055,104.008023
+"10 Bayfront Avenue, Singapore",#01-14,18956,Singapore,,Singapore,Yojee QA 97 ,6520210760,QA Corp 097,qa97@mail.com,1.283449,103.858945
+"7 Sin Ming Walk, Singapore",#01-13,575577,Singapore,,Singapore,Yojee QA 96 ,6520210759,QA Corp 096,qa96@mail.com,1.364276,103.831101
+"50 Tanah Merah Ferry Road, Singapore 498833, Singapore",#01-12,498833,Singapore,,Singapore,Yojee QA 95 ,6520210758,QA Corp 095,qa95@mail.com,1.314049,103.98869
+"2 Bukit Batok Street 24, Singapore",#01-11,659480,Singapore,,Singapore,Yojee QA 94 ,6520210757,QA Corp 094,qa94@mail.com,1.340709,103.754396
+"1b Jalan Ulu Siglap, Singapore",#01-10,457120,Singapore,,Singapore,Yojee QA 93 ,6520210756,QA Corp 093,qa93@mail.com,1.313723,103.928344
+"25 International Business Park Road, German Centre, Singapore",#01-09,609916,Singapore,,Singapore,Yojee QA 92 ,6520210755,QA Corp 092,qa92@mail.com,1.324972,103.746386
+"5001 Beach Rd, Singapore",#01-08,199588,Singapore,,Singapore,Yojee QA 91 ,6520210754,QA Corp 091,qa91@mail.com,1.30279,103.86538
+"32 Beach Rd, Singapore",#01-07,189761,Singapore,,Singapore,Yojee QA 90 ,6520210753,QA Corp 090,qa90@mail.com,1.294291,103.855251
+"76 Playfair Road, LHK2 Building, Singapore",#01-06,367996,Singapore,,Singapore,Yojee QA 89 ,6520210752,QA Corp 089,qa89@mail.com,1.336356,103.885911
+"10 Jalan Besar, Sim Lim Tower, Singapore",#01-05,208787,Singapore,,Singapore,Yojee QA 88 ,6520210751,QA Corp 088,qa88@mail.com,1.303784,103.854608
+"10 Jalan Besar, 123 LED Lighting (Sim Lim Tower), Singapore",#01-04,208787,Singapore,,Singapore,Yojee QA 87 ,6520210750,QA Corp 087,qa87@mail.com,1.30376,103.854738
+"10 Jalan Besar, Singapore",#01-03,208787,Singapore,,Singapore,Yojee QA 86 ,6520210749,QA Corp 086,qa86@mail.com,1.30376,103.854738
+"531 Upper Cross Street, Singapore",#01-02,50531,Singapore,,Singapore,Yojee QA 85 ,6520210748,QA Corp 085,qa85@mail.com,1.284565,103.845394
+"42 Horne Road, Singapore",#01-01,209066,Singapore,,Singapore,Yojee QA 84 ,6520210747,QA Corp 084,qa84@mail.com,1.309355,103.862162
+"2 Horne Road, Singapore",#01-00,209057,Singapore,,Singapore,Yojee QA 83 ,6520210746,QA Corp 083,qa83@mail.com,1.307902,103.862717
+"10 Horne Road, Singapore",#01-01,209061,Singapore,,Singapore,Yojee QA 82 ,6520210745,QA Corp 082,qa82@mail.com,1.308185,103.862693
+"28 Horne Road, Singapore",#01-25,209063,Singapore,,Singapore,Yojee QA 81 ,6520210744,QA Corp 081,qa81@mail.com,1.308525,103.862326
+"304 Upper Paya Lebar Road, Singapore",#01-24,534936,Singapore,,Singapore,Yojee QA 80 ,6520210743,QA Corp 080,qa80@mail.com,1.345391,103.882275
+"9 Wan Lee Road, Singapore",#01-23,627941,Singapore,,Singapore,Yojee QA 79 ,6520210742,QA Corp 079,qa79@mail.com,1.331395,103.705291
+"2 Wan Lee Road, Singapore",#01-22,627934,Singapore,,Singapore,Yojee QA 78 ,6520210741,QA Corp 078,qa78@mail.com,1.329754,103.70403
+"7 Wan Lee Road, Singapore",#01-21,627939,Singapore,,Singapore,Yojee QA 77 ,6520210740,QA Corp 077,qa77@mail.com,1.3312,103.705101
+"806 Hougang Central, Singapore",#01-20,530806,Singapore,,Singapore,Yojee QA 76 ,6520210739,QA Corp 076,qa76@mail.com,1.37109,103.894136
+"80 Hougang Central, Singapore",#01-19,538758,Singapore,,Singapore,Yojee QA 75 ,6520210738,QA Corp 075,qa75@mail.com,1.37199,103.89197
+"3 Sungei Kadut Drive, Singapore",#01-18,729556,Singapore,,Singapore,Yojee QA 74 ,6520210737,QA Corp 074,qa74@mail.com,1.432288,103.748196
+"3 Coleman Street, Singapore",#01-17,179804,Singapore,,Singapore,Yojee QA 73 ,6520210736,QA Corp 073,qa73@mail.com,1.291884,103.850052
+"5 Coleman Street, Singapore",#01-16,179805,Singapore,,Singapore,Yojee QA 72 ,6520210735,QA Corp 072,qa72@mail.com,1.29201,103.849932
+"10 Coleman Street, Singapore",#01-15,179809,Singapore,,Singapore,Yojee QA 71 ,6520210734,QA Corp 071,qa71@mail.com,1.292455,103.850113
+"4 New Industrial Road, Singapore",#01-14,536198,Singapore,,Singapore,Yojee QA 70 ,6520210733,QA Corp 070,qa70@mail.com,1.341666,103.884852
+"20 Maxwell Road, Maxwell House, Singapore",#01-13,69113,Singapore,,Singapore,Yojee QA 69 ,6520210732,QA Corp 069,qa69@mail.com,1.279308,103.844794
+"9 Maxwell Road, Singapore",#01-12,69112,Singapore,,Singapore,Yojee QA 68 ,6520210731,QA Corp 068,qa68@mail.com,1.279814,103.846025
+"5 Maxwell Road, Singapore",#01-11,69110,Singapore,,Singapore,Yojee QA 67 ,6520210730,QA Corp 067,qa67@mail.com,1.278909,103.845805
+"46 Penjuru Lane, Singapore",#01-10,609206,Singapore,,Singapore,Yojee QA 66 ,6520210729,QA Corp 066,qa66@mail.com,1.309192,103.72834
+"25 Pasir Panjang Road, Singapore",#01-09,117536,Singapore,,Singapore,Yojee QA 65 ,6520210728,QA Corp 065,qa65@mail.com,1.269688,103.798828
+"2 Pasir Panjang Road, Singapore",#01-08,118518,Singapore,,Singapore,Yojee QA 64 ,6520210727,QA Corp 064,qa64@mail.com,1.275505,103.795774
+"7 Pasir Panjang Road, Singapore",#01-07,118485,Singapore,,Singapore,Yojee QA 63 ,6520210726,QA Corp 063,qa63@mail.com,1.271862,103.800164
+"15 Pasir Panjang Road, Singapore",#01-06,117531,Singapore,,Singapore,Yojee QA 62 ,6520210725,QA Corp 062,qa62@mail.com,1.270729,103.800277
+"30 Pasir Panjang Road, Singapore",#01-05,117440,Singapore,,Singapore,Yojee QA 61 ,6520210724,QA Corp 061,qa61@mail.com,1.27486,103.797787
+"15 Beach Road, Singapore",#01-04,190015,Singapore,,Singapore,Yojee QA 60 ,6520210723,QA Corp 060,qa60@mail.com,1.295834,103.855537
+"10 Beach Road, Singapore",#01-03,189720,Singapore,,Singapore,Yojee QA 59 ,6520210722,QA Corp 059,qa59@mail.com,1.295284,103.855384
+"25 Mandai Estate, Singapore",#01-02,729930,Singapore,,Singapore,Yojee QA 58 ,6520210721,QA Corp 058,qa58@mail.com,1.40624,103.759964
+"7 Mandai Link, Singapore",#01-01,728664,Singapore,,Singapore,Yojee QA 57 ,6520210720,QA Corp 057,qa57@mail.com,1.408388,103.756614
+"16 Mandai Estate, Singapore",#01-00,729909,Singapore,,Singapore,Yojee QA 56 ,6520210719,QA Corp 056,qa56@mail.com,1.407086,103.759647
+"24 Peck Seah Street, Singapore",#01-01,79314,Singapore,,Singapore,Yojee QA 55 ,6520210718,QA Corp 055,qa55@mail.com,1.278283,103.844867
+"2 Peck Seah Street, Singapore",#01-25,79305,Singapore,,Singapore,Yojee QA 54 ,6520210717,QA Corp 054,qa54@mail.com,1.278846,103.845026
+"Dakota Crescent, Blk 58 Dakota Crescent, Marine Parade, Singapore",#01-24,390058,Singapore,,Singapore,Yojee QA 53 ,6520210716,QA Corp 053,qa53@mail.com,1.307556,103.889557
+"80 Marine Parade Road, Singapore",#01-23,449269,Singapore,,Singapore,Yojee QA 52 ,6520210715,QA Corp 052,qa52@mail.com,1.30147,103.905155
+"80 Marine Parade Road, Parkway Parade, Singapore",#01-22,449269,Singapore,,Singapore,Yojee QA 51 ,6520210714,QA Corp 051,qa51@mail.com,1.301337,103.905233
+"80 Marine Parade Road, Robert Piano, Singapore",#01-21,449269,Singapore,,Singapore,Yojee QA 50 ,6520210713,QA Corp 050,qa50@mail.com,1.302238,103.905126
+"19 Kim Keat Road, Singapore",#01-20,328804,Singapore,,Singapore,Yojee QA 49 ,6520210712,QA Corp 049,qa49@mail.com,1.325038,103.853126
+"Bedok North Street 1, Blk 216 Bedok Food Centre and Market, Singapore",#01-19,460216,Singapore,,Singapore,Yojee QA 48 ,6520210711,QA Corp 048,qa48@mail.com,1.327522,103.93338
+"Jurong East Street 13, SAM - Jurong East Street 13 Blk 135, outside NTUC 4-D outlet, Jurong, Singapore",#01-18,600135,Singapore,,Singapore,Yojee QA 47 ,6520210710,QA Corp 047,qa47@mail.com,1.334064,103.740399
+"259b Geylang Road, Singapore",#01-17,389315,Singapore,,Singapore,Yojee QA 46 ,6520210709,QA Corp 046,qa46@mail.com,1.312445,103.877239
+"277 Orchard Road, Singapore",#01-16,238858,Singapore,,Singapore,Yojee QA 45 ,6520210708,QA Corp 045,qa45@mail.com,1.300459,103.839352
+"12 Orchard Road, Singapore",#01-15,238881,Singapore,,Singapore,Yojee QA 44 ,6520210707,QA Corp 044,qa44@mail.com,1.305193,103.830593
+"261 Waterloo Street, Singapore",#01-14,180261,Singapore,,Singapore,Yojee QA 43 ,6520210706,QA Corp 043,qa43@mail.com,1.298916,103.85197
+"South Bridge Road, Hong Lim Complex, Singapore",#01-13,58740,Singapore,,Singapore,Yojee QA 42 ,6520210705,QA Corp 042,qa42@mail.com,1.284682,103.845794
+"531A Upper Cross Street, Hong Lim Market & Food Centre, Singapore",#01-12,51531,Singapore,,Singapore,Yojee QA 41 ,6520210704,QA Corp 041,qa41@mail.com,1.285395,103.845827
+"Upper Cross Street, Lily Florist & Gifts, Singapore",#01-11,50531,Singapore,,Singapore,Yojee QA 40 ,6520210703,QA Corp 040,qa40@mail.com,1.284538,103.845719
+"88 Jellicoe Road, Singapore",#01-10,208747,Singapore,,Singapore,Yojee QA 39 ,6520210702,QA Corp 039,qa39@mail.com,1.309216,103.862929
+"1 North Bridge Rd, Singapore",#01-09,179094,Singapore,,Singapore,Yojee QA 38 ,6520210701,QA Corp 038,qa38@mail.com,1.290009,103.849433
+"1 Geylang East Avenue 1, Singapore",#01-08,389778,Singapore,,Singapore,Yojee QA 37 ,6520210702,QA Corp 037,qa37@mail.com,1.3158,103.88433
+"Clementi Avenue 5, Shinta International, Block 325, Clementi, Singapore",#01-07,120325,Singapore,,Singapore,Yojee QA 36 ,6520210703,QA Corp 036,qa36@mail.com,1.314888,103.766763
+"101 Boon Keng Road, Singapore",#01-06,339773,Singapore,,Singapore,Yojee QA 35 ,6520210704,QA Corp 035,qa35@mail.com,1.316098,103.864197
+"45 Jalan Unggas, Singapore",#01-05,298935,Singapore,,Singapore,Yojee QA 34 ,6520210705,QA Corp 034,qa34@mail.com,1.32573,103.817915
+"200 Jalan Sultan, Singapore",#01-04,199018,Singapore,,Singapore,Yojee QA 33 ,6520210706,QA Corp 033,qa33@mail.com,1.303828,103.861479
+"370H Alexandra Road, Singapore",#01-03,159961,Singapore,,Singapore,Yojee QA 32 ,6520210707,QA Corp 032,qa32@mail.com,1.289464,103.805033
+"200 Bukit Timah Road, Singapore",#01-02,229862,Singapore,,Singapore,Yojee QA 31 ,6520210708,QA Corp 031,qa31@mail.com,1.311864,103.842119
+"304 Orchard Road, Singapore",#01-01,238863,Singapore,,Singapore,Yojee QA 30 ,6520210709,QA Corp 030,qa30@mail.com,1.30458,103.834062
+"150 South Bridge Road, Fook Hai Building MCST 373, Singapore",#01-00,58727,Singapore,,Singapore,Yojee QA 29 ,6520210710,QA Corp 029,qa29@mail.com,1.284998,103.846512
+"150 South Bridge Road, Fook Hai Building, Singapore",#01-01,58727,Singapore,,Singapore,Yojee QA 28 ,6520210711,QA Corp 028,qa28@mail.com,1.285089,103.846316
+"132 Pasir Panjang Road, Singapore",#01-25,118549,Singapore,,Singapore,Yojee QA 27 ,6520210712,QA Corp 027,qa27@mail.com,1.276072,103.793279
+"39 Sims Avenue, Singapore",#01-24,387412,Singapore,,Singapore,Yojee QA 26 ,6520210713,QA Corp 026,qa26@mail.com,1.313655,103.875547
+"67 Ubi Avenue 1, Singapore",#01-23,408942,Singapore,,Singapore,Yojee QA 25 ,6520210714,QA Corp 025,qa25@mail.com,1.324137,103.892918
+"67 Ubi Road 1, Singapore",#01-22,408732,Singapore,,Singapore,Yojee QA 24 ,6520210715,QA Corp 024,qa24@mail.com,1.332402,103.890785
+"67 Ubi Crescent, Singapore",#01-21,408560,Singapore,,Singapore,Yojee QA 23 ,6520210716,QA Corp 023,qa23@mail.com,1.328065,103.898179
+"5001 Beach Rd, Singapore",#01-20,199588,Singapore,,Singapore,Yojee QA 22 ,6520210717,QA Corp 022,qa22@mail.com,1.30279,103.86538
+"204 Jurong East Street 21, Singapore",#01-19,600204,Singapore,,Singapore,Yojee QA 21 ,6520210718,QA Corp 021,qa21@mail.com,1.337347,103.741634
+"204 Hougang Street 21, Singapore",#01-18,530204,Singapore,,Singapore,Yojee QA 20 ,6520210719,QA Corp 020,qa20@mail.com,1.358901,103.885152
+"390 Havelock Road, Singapore",#01-17,169662,Singapore,,Singapore,Yojee QA 19 ,6520210720,QA Corp 019,qa19@mail.com,1.289609,103.835891
+"302 Woodlands Street 31, Singapore",#01-16,730302,Singapore,,Singapore,Yojee QA 18 ,6520210721,QA Corp 018,qa18@mail.com,1.431841,103.774407
+"Jalan Batu, Block 11, Singapore",#01-15,431011,Singapore,,Singapore,Yojee QA 17 ,6520210722,QA Corp 017,qa17@mail.com,1.301633,103.882637
+"65 Airport Boulevard, KrisFlyer Gold Lounge - Terminal 3, Changi, Singapore",#01-14,819663,Singapore,,Singapore,Yojee QA 16 ,6520210723,QA Corp 016,qa16@mail.com,1.355447,103.985597
+"65 Airport Boulevard, 108 Matcha Saro Changi Airport Terminal 3, Changi, Singapore",#01-13,819663,Singapore,,Singapore,Yojee QA 15 ,6520210724,QA Corp 015,qa15@mail.com,1.357487,103.987348
+"65 Airport Boulevard, Singapore Changi Airport (SIN), Changi, Singapore",#01-12,819663,Singapore,,Singapore,Yojee QA 14 ,6520210725,QA Corp 014,qa14@mail.com,1.355581,103.986196
+"Tampines Street 93, Nexion Communications Pte Ltd, Singapore",#01-11,528844,Singapore,,Singapore,Yojee QA 13 ,6520210726,QA Corp 013,qa13@mail.com,1.339956,103.941832
+"9010 Tampines Street 93, Singapore",#01-10,528844,Singapore,,Singapore,Yojee QA 12 ,6520210727,QA Corp 012,qa12@mail.com,1.341269,103.94295
+"9 Gul Circle, Singapore",#01-09,629565,Singapore,,Singapore,Yojee QA 11 ,6520210728,QA Corp 011,qa11@mail.com,1.311574,103.672365
+"3023 Ubi Road 3, Singapore",#01-08,408663,Singapore,,Singapore,Yojee QA 10 ,6520210729,QA Corp 010,qa10@mail.com,1.329388,103.896719
+"52 Greenleaf Drive, Singapore",#01-07,279552,Singapore,,Singapore,Yojee QA 9 ,6520210730,QA Corp 009,qa9@mail.com,1.322721,103.786187
+"Bukit Batok Street 31, Block 374 HDB Bukit Batok, Singapore",#01-06,650374,Singapore,,Singapore,Yojee QA 8 ,6520210731,QA Corp 008,qa8@mail.com,1.358263,103.750657
+"Jurong East Street 31, Block 326, Singapore",#01-05,600326,Singapore,,Singapore,Yojee QA 7 ,6520210732,QA Corp 007,qa7@mail.com,1.349041,103.729667
+"545 Balestier Road, Singapore",#01-04,329866,Singapore,,Singapore,Yojee QA 6 ,6520210733,QA Corp 006,qa6@mail.com,1.326335,103.845142
+"21a Duxton Hill, Singapore",#01-03,89604,Singapore,,Singapore,Yojee QA 5 ,6520210734,QA Corp 005,qa5@mail.com,1.278527,103.842503
+"21a Duxton Road, Singapore",#01-02,89487,Singapore,,Singapore,Yojee QA 4 ,6520210735,QA Corp 004,qa4@mail.com,1.27949,103.843397
+"21 Club St, Singapore",#01-01,69410,Singapore,,Singapore,Yojee QA 3 ,6520210736,QA Corp 003,qa3@mail.com,1.282477,103.846699
+"10 Anson Road, Singapore",#01-00,79903,Singapore,,Singapore,Yojee QA 2 ,6520210737,QA Corp 002,qa2@mail.com,1.2757,103.84581
+"7 Maxwell Road, Amoy Street Food Centre, Singapore",#01-01,69111,Singapore,,Singapore,Yojee QA 1 ,6520210738,QA Corp 001,qa1@mail.com,1.279401,103.846701

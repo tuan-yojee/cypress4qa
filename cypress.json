@@ -1,12 +1,16 @@
 {
-    "baseUrl": "http://localhost:3000/",
-    "reporter": "mochawesome",
-    "reporterOptions": {
-        "charts": true,
-        "reportDir": "mochawesome-report",
-        "overwrite": false,
-        "html": true,
-        "json": true
-    },
-    "video": false
+  "$schema": "https://on.cypress.io/cypress.schema.json",
+  "baseUrl": "https://glebbahmutov.com/",
+  "watchForFileChanges": false,
+  "chromeWebSecurity": false,
+  "testFiles": "cypress/integration/cypress_learning/*.spec.js",
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "charts": true,
+    "reportDir": "mochawesome-report",
+    "overwrite": false,
+    "html": true,
+    "json": true
+  },
+  "video": false
 }

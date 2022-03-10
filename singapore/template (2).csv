@@ -1,0 +1,3 @@
+Item Details,,,,,,,,,,Pickup Details,,,,,,,,,,Dropoff Details,,,,,,,,,Extra
+Payload Type,Length,Description,Width,Weight,Height,Quantity,Additional Info,Service Type,Cash on delivery amount,Address Line 2,Address  *,Country,Zipcode,From *,To *,Contact Name,Contact Email,Contact Phone ,Contact Company,Address Line 1 *,Address Line 2,Country,Zipcode,From *,To *,Contact Name,Contact Phone,Contact Email,External Item ID 1
+,50,1 package,40,5,40,1,,sameday,,#03-01,77 Robinson Road,Singapore,068896,27/10/21 18:46,27/10/21 19:16,Yojee Ops,,6531591335,,59 New Bridge Road,#03-01,Singapore,059405,27/10/21 19:46,27/10/21 20:16,Yojee Ops,6531591335,,YOJ-1234
